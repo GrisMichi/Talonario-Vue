@@ -675,6 +675,13 @@ thead {
 }
 
 /* Media Queries añañañaña */
+@media (max-width: 1384px) {
+  
+  .cont-cantboletas {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 @media (max-width: 1200px) {
   .contenedor {
     grid-template-columns: 1fr;
