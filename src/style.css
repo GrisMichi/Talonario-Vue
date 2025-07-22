@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "DynaPuff", system-ui;
-  border:none;
+  border: none;
 }
 
 body {
@@ -170,10 +170,10 @@ select {
   background-color: #01ae35;
   cursor: pointer;
   font-weight: bolder;
-margin-left: 20px;
+  margin-left: 20px;
 }
 
-.botonpersonas{
+.botonpersonas {
   padding: 12px 12px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -249,7 +249,7 @@ h3 {
   margin-left: 440px;
 }
 
-.b2{
+.b2 {
   margin-left: 24px;
 }
 
@@ -266,8 +266,8 @@ h3 {
 
 
 .titulo-datos-boleta2 {
-text-align: center;
-margin-left: 50px;
+  text-align: center;
+  margin-left: 50px;
 
 }
 
@@ -395,7 +395,7 @@ margin-left: 50px;
   border: none;
 }
 
-.btn-primary{
+.btn-primary {
   border: none;
 }
 
@@ -454,15 +454,15 @@ margin-left: 50px;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
- 
+
 
 }
 
-.contenido2{
+.contenido2 {
   display: flex;
   justify-content: center;
   align-items: center;
-margin-top: 15px;
+  margin-top: 15px;
 }
 
 table {
@@ -521,82 +521,82 @@ thead {
 }
 
 
-.cont-conte2{
+.cont-conte2 {
   position: relative;
 
 }
 
-.titulo_temas2{
+.titulo_temas2 {
   text-align: center;
   margin-top: 20px;
   color: #7e7d7d;
   font-weight: bolder;
 }
 
-.cont_color_header{
+.cont_color_header {
   display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    gap: 5px;
-    margin-top: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 5px;
+  margin-top: 10px;
 }
 
-.cont_header_amarillo{
+.cont_header_amarillo {
   display: flex;
   border: #ADB9CA 2px solid;
   padding: 10px;
 }
 
-.cont_header_verde{
+.cont_header_verde {
   display: flex;
   border: #ADB9CA 2px solid;
   padding: 10px;
 }
 
-.cont_header_rosa{
+.cont_header_rosa {
   display: flex;
   border: #ADB9CA 2px solid;
   padding: 10px;
 }
 
-.cont_header_naranja{
+.cont_header_naranja {
   display: flex;
   border: #ADB9CA 2px solid;
   padding: 10px;
 }
 
-.cont-color{
+.cont-color {
   margin-left: 20px;
   display: flex;
 }
 
-.color{
+.color {
   width: 20px;
   height: 20px;
 
 }
 
-.amarillo{
+.amarillo {
   background: #eed384;
 }
 
-.verde{
+.verde {
   background: #c9f188;
 }
 
-.rosa{
+.rosa {
   background: #f197c4;
 }
 
-.naranja{
+.naranja {
   background: #ffd49f;
 }
 
-.bordercito{
+.bordercito {
   border-radius: 10px;
 }
 
-.titulo_temas{
+.titulo_temas {
   background-color: #01ae35;
   padding: 20px 20px;
   border-top-left-radius: 17px;
@@ -606,19 +606,19 @@ thead {
   text-align: center;
 }
 
-.colores_footer{
+.colores_footer {
   margin-bottom: 40px;
 }
 
-.botones{
+.botones {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
- margin-top: 20px;
- padding: 20px;
+  margin-top: 20px;
+  padding: 20px;
 }
 
-.btn-save{
+.btn-save {
   background-color: #79C024;
   color: white;
   padding: 14px 14px;
@@ -629,7 +629,7 @@ thead {
 
 }
 
-.btn-closed{
+.btn-closed {
   background-color: #CF1635;
   color: white;
   padding: 14px 14px;
@@ -640,7 +640,7 @@ thead {
 }
 
 
-.btn-color{
+.btn-color {
   background-color: #01ae35;
   color: white;
   padding: 14px 14px;
@@ -676,7 +676,7 @@ thead {
 
 /* Media Queries añañañaña */
 @media (max-width: 1384px) {
-  
+
   .cont-cantboletas {
     grid-template-columns: repeat(6, 1fr);
   }
@@ -688,32 +688,34 @@ thead {
     gap: 30px;
     margin-top: 80px;
   }
-  
-  .cont-informacion, 
+
+  .cont-informacion,
   .cont-acciones,
   .grid {
     width: 90%;
     margin-bottom: 100px;
   }
-  
+
   .cont-cantboletas {
     grid-template-columns: repeat(9, 1fr);
   }
 }
 
 @media (max-width: 992px) {
+
   .cont-listar,
   .cont-temas {
     width: 90%;
     height: auto;
     max-height: 80vh;
   }
-  
+
   table {
     font-size: 14px;
   }
-  
-  th, td {
+
+  th,
+  td {
     padding: 10px;
   }
 }
@@ -722,46 +724,46 @@ thead {
   .titulo-header {
     font-size: 35px;
   }
-  
+
   .cont-cantboletas {
     grid-template-columns: repeat(6, 1fr);
   }
-  
+
   .cuerpo {
     grid-template-columns: 1fr;
   }
-  
+
   .modal-body,
   .modal-body2 {
     padding: 10px;
   }
-  
+
   .btn-close {
     margin-left: 0;
     position: absolute;
     right: 10px;
     top: 10px;
   }
-  
+
   .titulo-datos-boleta,
   .titulo-datos-boleta2 {
     margin-left: 0;
     text-align: center;
   }
-  
+
   .contenido,
   .contenido3 {
     width: 90%;
     height: auto;
     padding: 15px;
   }
-  
+
   .intro {
     width: 90%;
     height: auto;
     padding-bottom: 20px;
   }
-  
+
   .cont_color_header {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -771,36 +773,37 @@ thead {
   .titulo-header {
     font-size: 28px;
   }
-  
+
   .cont-cantboletas {
     grid-template-columns: repeat(5, 1fr);
   }
-  
+
   .boleta {
     height: 45px;
     width: 45px;
     font-size: 14px;
   }
-  
+
   table {
     font-size: 12px;
   }
-  
-  th, td {
+
+  th,
+  td {
     padding: 8px;
   }
-  
+
   .btn-acciones,
   .btn-editar,
   .btn-editar2 {
     font-size: 14px;
     padding: 8px;
   }
-  
+
   .cont_color_header {
     grid-template-columns: 1fr;
   }
-  
+
   .botones {
     grid-template-columns: 1fr;
     gap: 10px;
@@ -844,17 +847,32 @@ body {
     overflow-x: auto;
     white-space: nowrap;
   }
+
+  .modal-intro,
+  .listar-boletas,
+  .modal-temas {
+    padding: 15px;
+  }
+
+  .closeicon,
+  .closeicon2 {
+    font-size: 18px;
+    top: 15px;
+    right: 15px;
+  }
 }
 
-.modal-intro,
-.listar-boletas,
-.modal-temas {
-  padding: 15px;
-}
 
-.closeicon,
-.closeicon2 {
-  font-size: 18px;
-  top: 15px;
-  right: 15px;
+@media (max-width: 350px) {
+  .cuerpo-info{
+    height: auto;
+  }
+
+  .input-group{
+    padding: 15px 0px;
+  }
+
+  .titulo-info-talonario{
+    margin-bottom: 20px;
+  }
 }
