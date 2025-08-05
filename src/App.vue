@@ -5,13 +5,13 @@
       :style="{
         backgroundColor:
           colorheader === '1'
-            ? '#F5F2CA'
+            ? '#38ABE4'
             : colorheader === '2'
-            ? '#93F393'
+            ? '#3A4E1B'
             : colorheader === '3'
-            ? '#F7A5B7'
+            ? '#6D2B2D'
             : colorheader === '4'
-            ? '#F6B363'
+            ? '#FFAB2A'
             : '#01AE35',
       }"
     >
@@ -25,13 +25,13 @@
             :style="{
               backgroundColor:
                 colorheader === '1'
-                  ? '#F5F2CA'
+                  ? '#38ABE4'
                   : colorheader === '2'
-                  ? '#93F393'
+                  ? '#3A4E1B'
                   : colorheader === '3'
-                  ? '#F7A5B7'
+                  ? '#6D2B2D'
                   : colorheader === '4'
-                  ? '#F6B363'
+                  ? '#FFAB2A'
                   : '#01AE35',
             }"
           >
@@ -80,13 +80,13 @@
               :style="{
                 backgroundColor:
                   colorbotones === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorbotones === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorbotones === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorbotones === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -120,13 +120,13 @@
                 :style="{
                   backgroundColor:
                     colorbotones === '1'
-                      ? '#F5F2CA'
+                      ? '#38ABE4'
                       : colorbotones === '2'
-                      ? '#93F393'
+                      ? '#3A4E1B'
                       : colorbotones === '3'
-                      ? '#F7A5B7'
+                      ? '#6D2B2D'
                       : colorbotones === '4'
-                      ? '#F6B363'
+                      ? '#FFAB2A'
                       : '#01AE35',
                 }"
               >
@@ -171,13 +171,13 @@
               :style="{
                 backgroundColor:
                   colorbotones === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorbotones === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorbotones === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorbotones === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -189,13 +189,13 @@
               :style="{
                 backgroundColor:
                   colorbotones === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorbotones === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorbotones === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorbotones === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -225,7 +225,7 @@
               <div v-if="estado === 0" class="cen">
                 <h6 class="rowc">
                   Estado: Disponible
-                  <div class="color" style="background-color: #00075f"></div>
+                  <div class="color" style="background-color: #014E35"></div>
                 </h6>
                 <hr v-if="estado === 0" />
                 <button
@@ -236,13 +236,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -277,13 +277,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -298,13 +298,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -319,13 +319,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -340,13 +340,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -414,13 +414,13 @@
                 :style="{
                   backgroundColor:
                     colorbotones === '1'
-                      ? '#F5F2CA'
+                      ? '#38ABE4'
                       : colorbotones === '2'
-                      ? '#93F393'
+                      ? '#3A4E1B'
                       : colorbotones === '3'
-                      ? '#F7A5B7'
+                      ? '#6D2B2D'
                       : colorbotones === '4'
-                      ? '#F6B363'
+                      ? '#FFAB2A'
                       : '#01AE35',
                 }"
               >
@@ -445,13 +445,13 @@
               :style="{
                 backgroundColor:
                   colorheader === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorheader === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorheader === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorheader === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -514,13 +514,13 @@
                   :style="{
                     backgroundColor:
                       colorbotones === '1'
-                        ? '#F5F2CA'
+                        ? '#38ABE4'
                         : colorbotones === '2'
-                        ? '#93F393'
+                        ? '#3A4E1B'
                         : colorbotones === '3'
-                        ? '#F7A5B7'
+                        ? '#6D2B2D'
                         : colorbotones === '4'
-                        ? '#F6B363'
+                        ? '#FFAB2A'
                         : '#01AE35',
                   }"
                 >
@@ -539,13 +539,13 @@
               :style="{
                 backgroundColor:
                   colorheader === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorheader === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorheader === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorheader === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -591,13 +591,13 @@
                 :style="{
                   backgroundColor:
                     colorbotones === '1'
-                      ? '#F5F2CA'
+                      ? '#38ABE4'
                       : colorbotones === '2'
-                      ? '#93F393'
+                      ? '#3A4E1B'
                       : colorbotones === '3'
-                      ? '#F7A5B7'
+                      ? '#6D2B2D'
                       : colorbotones === '4'
-                      ? '#F6B363'
+                      ? '#FFAB2A'
                       : '#01AE35',
                 }"
               >
@@ -615,13 +615,13 @@
               :style="{
                 backgroundColor:
                   colorheader === '1'
-                    ? '#F5F2CA'
+                    ? '#38ABE4'
                     : colorheader === '2'
-                    ? '#93F393'
+                    ? '#3A4E1B'
                     : colorheader === '3'
-                    ? '#F7A5B7'
+                    ? '#6D2B2D'
                     : colorheader === '4'
-                    ? '#F6B363'
+                    ? '#FFAB2A'
                     : '#01AE35',
               }"
             >
@@ -645,7 +645,7 @@
                       id="color_amarillo"
                     />
                     <div class="cont-color">
-                      <label for="color_amarillo">Amarillo pálido</label>
+                      <label for="color_amarillo">Azul celeste</label>
                       <div class="color amarillo"></div>
                     </div>
                   </div>
@@ -658,7 +658,7 @@
                       id="color_verde"
                     />
                     <div class="cont-color">
-                      <label for="color_verde">Verde Manzana</label>
+                      <label for="color_verde">Verde Oscuro</label>
                       <div class="color verde"></div>
                     </div>
                   </div>
@@ -671,7 +671,7 @@
                       id="color_rojo"
                     />
                     <div class="cont-color">
-                      <label for="color_rojo">Rosa pálido</label>
+                      <label for="color_rojo">Vinotinto</label>
                       <div class="color rosa"></div>
                     </div>
                   </div>
@@ -684,7 +684,7 @@
                       id="color_naranja"
                     />
                     <div class="cont-color">
-                      <label for="color_morado">Naranja oscuro</label>
+                      <label for="color_morado">Amarillo oscuro</label>
                       <div class="color naranja"></div>
                     </div>
                   </div>
@@ -704,7 +704,7 @@
                       id="color_amarillo"
                     />
                     <div class="cont-color">
-                      <label for="color_amarillo">Amarillo pálido</label>
+                      <label for="color_amarillo">Azul celeste</label>
                       <div class="color amarillo"></div>
                     </div>
                   </div>
@@ -717,7 +717,7 @@
                       id="color_verde"
                     />
                     <div class="cont-color">
-                      <label for="color_verde">Verde Manzana</label>
+                      <label for="color_verde">Verde Oscuro</label>
                       <div class="color verde"></div>
                     </div>
                   </div>
@@ -730,7 +730,7 @@
                       id="color_rojo"
                     />
                     <div class="cont-color">
-                      <label for="color_rojo">Rosa pálido</label>
+                      <label for="color_rojo">Vinotinto</label>
                       <div class="color rosa"></div>
                     </div>
                   </div>
@@ -743,7 +743,7 @@
                       id="color_naranja"
                     />
                     <div class="cont-color">
-                      <label for="color_morado">Naranja oscuro</label>
+                      <label for="color_morado">Amarillo oscuro</label>
                       <div class="color naranja"></div>
                     </div>
                   </div>
@@ -763,7 +763,7 @@
                       id="color_amarillo"
                     />
                     <div class="cont-color">
-                      <label for="color_amarillo">Amarillo Pálido</label>
+                      <label for="color_amarillo">Azul Celeste</label>
                       <div class="color amarillo"></div>
                     </div>
                   </div>
@@ -776,7 +776,7 @@
                       id="color_verde"
                     />
                     <div class="cont-color">
-                      <label for="color_verde">Verde Manzana</label>
+                      <label for="color_verde">Verde Oscuro</label>
                       <div class="color verde"></div>
                     </div>
                   </div>
@@ -789,7 +789,7 @@
                       id="color_rojo"
                     />
                     <div class="cont-color">
-                      <label for="color_rojo">Rosa Pálido</label>
+                      <label for="color_rojo">Vinotinto</label>
                       <div class="color rosa"></div>
                     </div>
                   </div>
@@ -802,7 +802,7 @@
                       id="color_naranja"
                     />
                     <div class="cont-color">
-                      <label for="color_morado">Naranja Oscuro</label>
+                      <label for="color_morado">Amarillo oscuro</label>
                       <div class="color naranja"></div>
                     </div>
                   </div>
@@ -868,13 +868,13 @@
                 :style="{
                   backgroundColor:
                     colorbotones === '1'
-                      ? '#F5F2CA'
+                      ? '#38ABE4'
                       : colorbotones === '2'
-                      ? '#93F393'
+                      ? '#3A4E1B'
                       : colorbotones === '3'
-                      ? '#F7A5B7'
+                      ? '#6D2B2D'
                       : colorbotones === '4'
-                      ? '#F6B363'
+                      ? '#FFAB2A'
                       : '#01AE35',
                 }"
               >
@@ -890,13 +890,13 @@
       :style="{
         backgroundColor:
           colorfooter === '1'
-            ? '#F5F2CA'
+            ? '#38ABE4'
             : colorfooter === '2'
-            ? '#93F393'
+            ? '#3A4E1B'
             : colorfooter === '3'
-            ? '#F7A5B7'
+            ? '#6D2B2D'
             : colorfooter === '4'
-            ? '#F6B363'
+            ? '#FFAB2A'
             : '#01AE35',
       }"
     >
