@@ -1014,7 +1014,7 @@ function validarcliente() {
   let texto = /^[A-Za-zÁÉÍÓÚáéíóúñÑüÜ\s]+$/;
 
   if (edit2 == true) {
-    if (nombreC.value == "") {
+    if (nombreC.value.trim() == "") {
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -1028,7 +1028,7 @@ function validarcliente() {
         text: "El campo de nombre comprador no puede llevar numeros",
         timer: 3500,
       });
-    } else if (direccionC.value == "") {
+    } else if (direccionC.value.trim() == "") {
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -1079,7 +1079,7 @@ function validarcliente() {
       bootstrapModal.hide();
     }
   } else {
-    if (nombreC.value == "") {
+    if (nombreC.value.trim() == "") {
       Swal.fire({
         icon: "error",
         title: "Faltan datos",
@@ -1093,7 +1093,7 @@ function validarcliente() {
         text: "El campo de nombre comprador no puede llevar números",
         timer: 3500,
       });
-    } else if (direccionC.value == "") {
+    } else if (direccionC.value.trim() == "") {
       Swal.fire({
         icon: "error",
         title: "Faltan datos",
